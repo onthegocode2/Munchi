@@ -1,0 +1,94 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+h1 {
+    font-size: 240%;
+    font-weight: 300;
+    color: white;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.logo {
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
+    float: left;
+}
+.main-nav {
+    float: right;
+    list-style: none;
+}
+.main-nav li {
+    float: left;
+    margin-top: 40px;
+    
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0; 
+    text-decoration: none;
+    margin-left: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid orange;
+}
+.hero-text {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn {
+    display: inline-block;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 1px solid orange;
+    transition: border 0.2s, background-color 0.2s, color 0.2s;
+}
+.btn-full {
+    background-color: orange;
+    margin-right: 15px;
+}
+.btn-ghost {
+    color: orange;
+}
+.btn-full:hover,
+.btn-full:active {
+    background-color: transparent;
+    color: orange;
+}
+.btn-ghost:hover,
+.btn-ghost:active {
+    background-color: orange;
+    color: white;
+}
